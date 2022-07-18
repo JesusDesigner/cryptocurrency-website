@@ -41,12 +41,12 @@ const Hero = () => {
               $30 billion in transactions.
             </p>
             <button
-              className='btn gap-x-6 pl-6 h-16'
+              className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base'
               data-aos='fade-down'
               data-aos-delay='700'
             >
               Try for FREE
-              <IoIosArrowDroprightCircle className='text-3xl' />
+              <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
             </button>
           </div>
           {/* image */}
