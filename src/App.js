@@ -29,7 +29,7 @@ const App = () => {
           navMobile ? 'right-0' : '-right-full'
         } fixed bg-violet h-full top-0 w-96 transition-all duration-200`}
       >
-        <NavMobile />
+        <NavMobile setNavMobile={setNavMobile} />
       </div>
       <div className='h-[2000px]'></div>
     </div>
