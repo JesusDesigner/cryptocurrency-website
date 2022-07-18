@@ -3,16 +3,13 @@ import React from 'react';
 // import data
 import { navData } from '../data';
 
-const Nav = () => {
+const NavMobile = () => {
   return (
-    <nav className='flex items-center'>
-      <ul className='flex gap-x-8'>
+    <nav className='flex lg:hidden'>
+      <ul>
         {navData.map((item, index) => {
           return (
-            <li
-              className='border-b-2 border-transparent hover:border-blue transition-all duration-300'
-              key={index}
-            >
+            <li key={index}>
               <a href={item.href}>{item.name}</a>
             </li>
           );
@@ -22,4 +19,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavMobile;

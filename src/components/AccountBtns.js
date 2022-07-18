@@ -2,7 +2,7 @@ import React from 'react';
 
 const AccountBtns = () => {
   return (
-    <div className='text-white font-medium flex items-center'>
+    <div className='flex items-center font-medium'>
       <a className='hover:text-blue transition' href='#'>
         Login
       </a>

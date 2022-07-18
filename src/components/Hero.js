@@ -8,7 +8,7 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const Hero = () => {
   return (
-    <section className='text-white'>
+    <section>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center lg:flex-row'>
           {/* text */}
