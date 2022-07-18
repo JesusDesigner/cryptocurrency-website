@@ -30,7 +30,7 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='500'
             >
-              Fastest & secure platform to invest in crypto
+              Fastest & secure platform to invest in crypto.
             </h1>
             <p
               className='max-w-[440px] leading-relaxed mb-8'
@@ -41,7 +41,7 @@ const Hero = () => {
               $30 billion in transactions.
             </p>
             <button
-              className='btn gap-x-6 pl-6'
+              className='btn gap-x-6 pl-6 h-16'
               data-aos='fade-down'
               data-aos-delay='700'
             >

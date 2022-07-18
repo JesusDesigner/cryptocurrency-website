@@ -10,19 +10,20 @@ module.exports = {
     fontFamily: {
       primary: 'Rubik',
     },
-    colors: {
-      darkblue: {
-        DEFAULT: '#0D0D2B',
-        secondary: '#252540',
+    extend: {
+      colors: {
+        darkblue: {
+          DEFAULT: '#0D0D2B',
+          secondary: '#252540',
+        },
+        blue: {
+          DEFAULT: '#3671E9',
+          hover: '#2766E6',
+        },
+        violet: '#2B076E',
+        white: '#ffffff',
       },
-      blue: {
-        DEFAULT: '#3671E9',
-        hover: '#2766E6',
-      },
-      violet: '#2B076E',
-      white: '#ffffff',
     },
-    extend: {},
     screens: {
       sm: '640px',
       md: '768px',
