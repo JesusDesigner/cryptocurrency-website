@@ -5,7 +5,7 @@ import Image from '../assets/img/why-img.png';
 
 const Why = () => {
   return (
-    <section>
+    <section className='section'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center gap-x-8 lg:flex-row'>
           {/* image */}
