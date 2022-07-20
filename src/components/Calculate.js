@@ -23,7 +23,7 @@ const Calculate = () => {
             Exercitation veniam consequat sunt nostrud amet.
           </p>
         </div>
-        {/* Calculation form */}
+        {/* form */}
         <CalcForm />
       </div>
     </section>

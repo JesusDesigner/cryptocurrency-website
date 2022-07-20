@@ -24,6 +24,15 @@ const CalcForm = () => {
           Calculate
         </button>
       </form>
+      <div className='mt-24'>
+        <div className='text-blue font-medium mb-4'>
+          ESTIMATED 24 HOUR REVENUE:
+        </div>
+        <div>0.055 130 59 ETH ($1275)</div>
+        <div>
+          Revenue will change based on mining difficulty and Ethereum price.
+        </div>
+      </div>
     </div>
   );
 };

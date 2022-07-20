@@ -24,7 +24,7 @@ const App = () => {
     });
   });
   return (
-    <div className='container mx-auto'>
+    <div className='overflow-hidden'>
       <Header setNavMobile={setNavMobile} />
       <Hero />
 
