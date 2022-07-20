@@ -10,7 +10,7 @@ const AccountBtns = () => {
       {/* separator */}
       <span className='mx-6 text-white/20 font-thin'>|</span>
       {/* register btn */}
-      <button className='btn text-base px-8'>Register</button>
+      <button className='btn h-[52px] text-base px-8'>Register</button>
     </div>
   );
 };
