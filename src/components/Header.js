@@ -21,11 +21,12 @@ const Header = ({ setNavMobile }) => {
         <a href='#'>
           <img src={Logo} alt='' />
         </a>
-        <div className='hidden lg:flex gap-x-[55px] '>
+        {/* nav & btns */}
+        <div className='hidden lg:flex gap-x-[55px]'>
           <Nav />
           <AccountBtns />
         </div>
-        {/* nav menu btn */}
+        {/* open nav btn */}
         <div
           onClick={() => setNavMobile(true)}
           className='lg:hidden cursor-pointer'

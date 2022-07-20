@@ -20,6 +20,9 @@ module.exports = {
           DEFAULT: '#3671E9',
           hover: '#2766E6',
         },
+        gray: {
+          DEFAULT: '#E0E0E0',
+        },
         violet: '#2B076E',
         white: '#ffffff',
       },

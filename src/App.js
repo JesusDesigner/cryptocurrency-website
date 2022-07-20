@@ -8,9 +8,13 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import NavMobile from './components/NavMobile';
+import Stats from './components/Stats';
+import Why from './components/Why';
 
 const App = () => {
+  // mobile nav state
   const [navMobile, setNavMobile] = useState(false);
+
   // aos initialization
   useEffect(() => {
     Aos.init({
@@ -23,14 +27,16 @@ const App = () => {
       <Header setNavMobile={setNavMobile} />
       <Hero />
 
-      {/* nav mobile */}
+      {/* mobile nav */}
       <div
         className={`${
           navMobile ? 'right-0' : '-right-full'
-        } fixed bg-violet h-full top-0 w-96 transition-all duration-200`}
+        } fixed z-10 top-0 h-full transition-all duration-200`}
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+      <Stats />
+      <Why />
       <div className='h-[2000px]'></div>
     </div>
   );

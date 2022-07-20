@@ -11,7 +11,7 @@ const Hero = () => {
     <section>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center lg:flex-row'>
-          {/* text */}
+          {/* hero text */}
           <div className='flex-1'>
             <div
               className='bg-white/10 p-[4px] mb-6 rounded-full pl-1 pr-3 max-w-[365px]'
@@ -49,7 +49,7 @@ const Hero = () => {
               <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
             </button>
           </div>
-          {/* image */}
+          {/* hero image */}
           <div className='flex-1'>
             <img src={Image} alt='' data-aos='fade-up' data-aos-delay='600' />
           </div>

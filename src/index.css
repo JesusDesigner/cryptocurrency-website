@@ -9,4 +9,13 @@
   .btn {
     @apply bg-blue h-[52px] px-4 rounded-full hover:bg-blue-hover transition flex items-center text-lg font-medium outline-none;
   }
+  .section {
+    @apply py-24;
+  }
+  .section-title {
+    @apply text-2xl lg:text-[40px] font-bold leading-normal mb-6;
+  }
+  .section-subtitle {
+    @apply mt-6 mb-8 text-gray;
+  }
 }
