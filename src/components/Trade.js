@@ -51,11 +51,10 @@ const Trade = () => {
                   {/* description */}
                   <p className='mb-6 text-center'>{description}</p>
                   {/* btn */}
-
                   <button
                     className={`${
                       name === itemName
-                        ? 'text-white bg-blue border-none pl-8 pr-6 gap-x-3'
+                        ? 'text-white bg-blue hover:bg-blue-hover border-none pl-8 pr-6 gap-x-3'
                         : 'text-blue w-16'
                     } border-2 border-gray-300 rounded-full h-16  transition-all flex justify-center items-center`}
                   >
