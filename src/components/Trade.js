@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // import data
 import { currency } from '../data';
 // import images
 import BitconImg from '../assets/img/bitcon.png';
 // import icons
-import { IoIosArrowDroprightCircle } from 'react-icons/io';
+import { IoIosArrowDroprightCircle, IoIosArrowForward } from 'react-icons/io';
 
 const Trade = () => {
+  const [itemName, setItemName] = useState('Bitcoin');
+  console.log(itemName);
   return (
     <section className='section lg:pt-[320px] bg-gradient-to-b from-[#F8F9FB] to-[#FAFBFF] text-darkblue lg:-mt-[320px]'>
       <div className='container mx-auto'>
@@ -30,7 +32,10 @@ const Trade = () => {
             return (
               // item
               <div
-                className='w-full bg-white rounded-2xl py-12 px-6 shadow-primary hover:bg-violet hover:text-white transition duration-500'
+                onClick={() => setItemName(name)}
+                className={`${
+                  name === itemName ? 'bg-violet text-white' : 'bg-white'
+                } w-full rounded-2xl py-12 px-6 shadow-primary cursor-pointer transition duration-500`}
                 key={index}
               >
                 <div className='flex flex-col justify-center items-center'>
@@ -46,11 +51,25 @@ const Trade = () => {
                   {/* description */}
                   <p className='mb-6 text-center'>{description}</p>
                   {/* btn */}
-                  <button className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base text-white'>
-                    Start mining
-                    {/* btn icon */}
-                    <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
+
+                  <button
+                    className={`${
+                      name === itemName
+                        ? 'text-white bg-blue border-none pl-8 pr-6 gap-x-3'
+                        : 'text-blue w-16'
+                    } border-2 border-gray-300 rounded-full h-16  transition-all flex justify-center items-center`}
+                  >
+                    {name === itemName ? 'Start mining' : ''}
+                    <IoIosArrowForward
+                      className={`${
+                        name === itemName ? 'text-xl' : 'text-3xl'
+                      } `}
+                    />
                   </button>
+                  {/* <button className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base text-white'>
+                    Start mining
+                    <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
+                  </button> */}
                 </div>
               </div>
             );
