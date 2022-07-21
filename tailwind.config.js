@@ -31,6 +31,7 @@ module.exports = {
         primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',
       },
       backgroundImage: {
+        newsletter: "url('/src/assets/img/newsletter-bg.png')",
         newsletterBox: "url('/src/assets/img/newsletter-box.png')",
       },
     },

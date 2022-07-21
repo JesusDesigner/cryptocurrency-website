@@ -7,7 +7,7 @@ import FeaturesSection3 from './FeaturesSection3';
 
 const Features = () => {
   return (
-    <section className='section bg-violet'>
+    <section className='pt-12 lg:pt-24 bg-violet'>
       <div className='container mx-auto'>
         <div className='text-center max-w-[758px] mx-auto mb-24'>
           <h2

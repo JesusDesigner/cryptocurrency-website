@@ -9,7 +9,7 @@ const CalcForm = () => {
     >
       <form className='flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-12 lg:space-y-0'>
         <input
-          className='input'
+          className='input placeholder:text-darkblue'
           type='text'
           placeholder='Enter your hash rate'
         />
