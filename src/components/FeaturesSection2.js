@@ -5,7 +5,7 @@ import Image2 from '../assets/img/feature-2-img.png';
 
 const FeaturesSection2 = () => {
   return (
-    <section className='py-[120px]'>
+    <section className='py-[30px] lg:py-[120px]'>
       <div className='container mx-auto'>
         <div className='flex flex-col justify-end items-center lg:flex-row'>
           {/* image */}

@@ -4,7 +4,7 @@ import Image3 from '../assets/img/feature-3-img.png';
 
 const FeaturesSection3 = () => {
   return (
-    <section className='py-[120px]'>
+    <section className='py-[30px] lg:py-[120px]'>
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
         <div

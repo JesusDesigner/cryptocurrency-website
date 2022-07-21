@@ -5,7 +5,7 @@ import Image1 from '../assets/img/feature-1-img.png';
 
 const FeaturesSection1 = () => {
   return (
-    <section className='pb-[120px] pt-0'>
+    <section className='pb-[30px] lg:pb-[120px] pt-0'>
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
         <div
