@@ -35,7 +35,7 @@ const Trade = () => {
                 onClick={() => setItemName(name)}
                 className={`${
                   name === itemName ? 'bg-violet text-white' : 'bg-white'
-                } w-full rounded-2xl py-12 px-6 shadow-primary cursor-pointer transition duration-500`}
+                } w-full rounded-2xl py-12 px-6 shadow-primary cursor-pointer transition duration-300`}
                 key={index}
               >
                 <div className='flex flex-col justify-center items-center'>
@@ -68,10 +68,6 @@ const Trade = () => {
                       } `}
                     />
                   </button>
-                  {/* <button className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base text-white'>
-                    Start mining
-                    <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
-                  </button> */}
                 </div>
               </div>
             );
