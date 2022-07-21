@@ -11,11 +11,19 @@ const Trade = () => {
   return (
     <section className='section lg:pt-[320px] bg-gradient-to-b from-[#F8F9FB] to-[#FAFBFF] text-darkblue lg:-mt-[320px]'>
       <div className='container mx-auto'>
-        <h2 className='section-title text-center mb-16'>
+        <h2
+          className='section-title text-center mb-16'
+          data-aos='fade-up'
+          data-aos-offset='400'
+        >
           Trade securely and market the high growth cryptocurrencies.
         </h2>
         {/* items */}
-        <div className='flex flex-col gap-[45px] lg:flex-row'>
+        <div
+          className='flex flex-col gap-[45px] lg:flex-row'
+          data-aos='fade-up'
+          data-aos-offset='450'
+        >
           {currency.map((item, index) => {
             // destructure item
             const { image, name, abbr, description } = item;
