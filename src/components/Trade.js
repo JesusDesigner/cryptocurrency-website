@@ -35,9 +35,12 @@ const Trade = () => {
                       {abbr}
                     </div>
                   </div>
+                  {/* description */}
                   <p className='mb-6 text-center'>{description}</p>
+                  {/* btn */}
                   <button className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base text-white'>
                     Start mining
+                    {/* btn icon */}
                     <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
                   </button>
                 </div>
