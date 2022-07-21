@@ -3,7 +3,7 @@ import React from 'react';
 const CalcForm = () => {
   return (
     <div
-      className='w-full max-w-[942px] bg-white mx-auto rounded-2xl text-darkblue p-12'
+      className='w-full max-w-[942px] bg-white mx-auto rounded-2xl text-darkblue p-12 shadow-primary'
       data-aos='fade-up'
       data-aos-offset='500'
     >
@@ -28,8 +28,10 @@ const CalcForm = () => {
         <div className='text-blue font-medium mb-4'>
           ESTIMATED 24 HOUR REVENUE:
         </div>
-        <div>0.055 130 59 ETH ($1275)</div>
-        <div>
+        <div className='text-[32px] font-bold mb-3'>
+          0.055 130 59 ETH <span className='text-blue'>($1275)</span>
+        </div>
+        <div className='text-gray-500 tracking-[1%]'>
           Revenue will change based on mining difficulty and Ethereum price.
         </div>
       </div>
