@@ -30,6 +30,9 @@ module.exports = {
       boxShadow: {
         primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',
       },
+      backgroundImage: {
+        newsletterBox: "url('/src/assets/img/newsletter-box.png')",
+      },
     },
     screens: {
       sm: '640px',
