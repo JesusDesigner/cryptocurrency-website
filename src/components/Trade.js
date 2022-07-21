@@ -59,10 +59,12 @@ const Trade = () => {
                         : 'text-blue w-16'
                     } border-2 border-gray-300 rounded-full h-16  transition-all flex justify-center items-center`}
                   >
-                    {name === itemName ? 'Start mining' : ''}
+                    {name === itemName && (
+                      <div className='text-lg'>Start mining</div>
+                    )}
                     <IoIosArrowForward
                       className={`${
-                        name === itemName ? 'text-xl' : 'text-3xl'
+                        name === itemName ? 'text-2xl' : 'text-3xl'
                       } `}
                     />
                   </button>
