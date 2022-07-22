@@ -8,13 +8,16 @@ import { CgClose } from 'react-icons/cg';
 
 const NavMobile = ({ setNavMobile }) => {
   return (
-    <nav className='flex lg:hidden bg-violet h-full top-0 bottom-0 w-96'>
+    <nav className='lg:hidden bg-violet h-full top-0 bottom-0 w-80 flex justify-center items-center'>
       {/* close btn */}
-      <div onClick={() => setNavMobile(false)} className='cursor-pointer'>
-        <CgClose className='text-2xl' />
+      <div
+        onClick={() => setNavMobile(false)}
+        className='absolute top-2 left-2 cursor-pointer'
+      >
+        <CgClose className='text-3xl' />
       </div>
       {/* menu list */}
-      <ul>
+      <ul className='text-2xl flex flex-col gap-y-8'>
         {navData.map((item, index) => {
           return (
             <li key={index}>

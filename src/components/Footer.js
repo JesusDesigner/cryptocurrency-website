@@ -16,7 +16,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className='lg:pt-24 pt-0'>
+    <footer className='lg:pt-24 pt-0' data-aos='fade-up' data-aos-offset='400'>
       <div className='container mx-auto mb-24'>
         <div className='flex flex-col lg:flex-row gap-12'>
           {/* logo */}
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
       {/* copyright & socials */}
       <div className='py-12'>
-        <div className='container mx-auto flex justify-between'>
+        <div className='container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0'>
           <div>&copy; 2022 CRAPPO. All rights reserved.</div>
           <div className='flex text-2xl gap-x-8'>
             <a className='hover:text-blue transition' href='#'>
