@@ -17,7 +17,7 @@ import {
 const Footer = () => {
   return (
     <footer className='lg:pt-24 pt-0' data-aos='fade-up' data-aos-offset='400'>
-      <div className='container mx-auto mb-24'>
+      <div className='container mx-auto lg:mb-24'>
         <div className='flex flex-col lg:flex-row gap-12'>
           {/* logo */}
           <div className='flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]'>

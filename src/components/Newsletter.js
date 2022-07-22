@@ -5,7 +5,7 @@ import NewsletterForm from './NewsletterForm';
 
 const Newsletter = () => {
   return (
-    <section className='py-[88px] bg-newsletter bg-cover'>
+    <section className='py-[40px] lg:py-[88px] bg-newsletter bg-cover'>
       <div className='container mx-auto'>
         <div
           className='flex flex-col lg:flex-row items-center justify-between p-12 rounded-2xl bg-blue lg:bg-newsletterBox lg:bg-no-repeat lg:h-[216px]'

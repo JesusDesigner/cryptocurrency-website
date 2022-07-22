@@ -17,7 +17,7 @@ const NavMobile = ({ setNavMobile }) => {
         <CgClose className='text-3xl' />
       </div>
       {/* menu list */}
-      <ul className='text-2xl flex flex-col gap-y-8'>
+      <ul className='text-xl flex flex-col gap-y-8'>
         {navData.map((item, index) => {
           return (
             <li key={index}>
