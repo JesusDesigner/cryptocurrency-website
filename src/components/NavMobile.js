@@ -2,7 +2,6 @@ import React from 'react';
 
 // import data
 import { navData } from '../data';
-
 // import icons
 import { CgClose } from 'react-icons/cg';
 

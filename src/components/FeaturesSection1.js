@@ -15,7 +15,7 @@ const FeaturesSection1 = () => {
         >
           <h3 className='h3 mb-6'>Invest Smart</h3>
           <p className='text-gray mb-8'>
-            Get full statistic information about the behaviour of buyers and
+            Get full statistic information about the behavior of buyers and
             sellers will help you to make the decision.
           </p>
           <button className='btn px-8'>Learn more</button>

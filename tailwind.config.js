@@ -26,7 +26,6 @@ module.exports = {
         violet: '#2B076E',
         white: '#ffffff',
       },
-      // 0px 20px 200px rgba(57, 23, 119, 0.05));
       boxShadow: {
         primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',
       },

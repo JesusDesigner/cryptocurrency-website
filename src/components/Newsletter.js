@@ -1,14 +1,14 @@
 import React from 'react';
 
 // import components
-import NewsletterForm from './NewsletterForm';
+import NewsletterForm from '../components/NewsletterForm';
 
 const Newsletter = () => {
   return (
     <section className='py-[40px] lg:py-[88px] bg-newsletter bg-cover'>
       <div className='container mx-auto'>
         <div
-          className='flex flex-col lg:flex-row items-center justify-between p-12 rounded-2xl bg-blue lg:bg-newsletterBox lg:bg-no-repeat lg:h-[216px]'
+          className='flex flex-col lg:flex-row items-center justify-between bg-blue p-12 rounded-2xl lg:bg-newsletterBox lg:bg-no-repeat lg:h-[216px]'
           data-aos='fade-up'
           data-aos-offset='400'
         >

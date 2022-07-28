@@ -1,4 +1,6 @@
 import React from 'react';
+
+// import components
 import CalcForm from './CalcForm';
 
 const Calculate = () => {
@@ -19,8 +21,7 @@ const Calculate = () => {
             data-aos='fade-up'
             data-aos-offset='450'
           >
-            Let’s check your hash rate to see how much you will earn today,
-            Exercitation veniam consequat sunt nostrud amet.
+            Let's check your hash rate to see how much you will earn today.
           </p>
         </div>
         {/* form */}

@@ -1,1 +1,1 @@
-# Cryptocurrency Website
+# cyptocurrency-website-starter

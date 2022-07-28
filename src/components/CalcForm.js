@@ -3,10 +3,11 @@ import React from 'react';
 const CalcForm = () => {
   return (
     <div
-      className='w-full max-w-[942px] bg-white mx-auto rounded-2xl text-darkblue p-12 shadow-primary'
+      className='w-full bg-white max-w-[942px] mx-auto rounded-2xl text-darkblue p-12 shadow-primary'
       data-aos='fade-up'
       data-aos-offset='500'
     >
+      {/* form */}
       <form className='flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-12 lg:space-y-0'>
         <input
           className='input placeholder:text-darkblue'
@@ -20,10 +21,12 @@ const CalcForm = () => {
           <option value=''>MH/s</option>
           <option value=''>GH/s</option>
         </select>
+        {/* btn */}
         <button className='btn text-white px-8 flex self-start'>
           Calculate
         </button>
       </form>
+      {/* text */}
       <div className='mt-24'>
         <div className='text-blue font-medium mb-4'>
           ESTIMATED 24 HOUR REVENUE:

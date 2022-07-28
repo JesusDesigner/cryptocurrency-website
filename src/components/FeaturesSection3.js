@@ -1,4 +1,5 @@
 import React from 'react';
+
 // import image
 import Image3 from '../assets/img/feature-3-img.png';
 
@@ -25,7 +26,7 @@ const FeaturesSection3 = () => {
         <div
           className='flex-1 flex justify-end'
           data-aos='fade-left'
-          data-aos-offset='400'
+          data-aos-offset='450'
         >
           <img src={Image3} alt='' />
         </div>
