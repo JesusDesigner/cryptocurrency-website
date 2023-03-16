@@ -5,43 +5,43 @@ import LitecoinImg from './assets/img/litecoin.png';
 
 export const navData = [
   {
-    name: 'Products',
-    href: '#',
+    name: 'Home',
+    href: '/',
   },
   {
-    name: 'Features',
-    href: '#',
+    name: 'Portifólio',
+    href: '/Portifolio',
   },
   {
-    name: 'About',
-    href: '#',
+    name: 'Serviços',
+    href: '/Servicos',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/Contato',
   },
 ];
 
 export const currency = [
   {
     image: BitconImg,
-    name: 'Bitcoin',
-    abbr: 'BTC',
+    name: 'Front-End',
+    abbr: 'React',
     description:
-      'Digital currency in which a record of transactions is maintained.',
+      'HTML5, CSS, javaScript, REACT',
   },
   {
     image: EthereumImg,
-    name: 'Ethereum',
-    abbr: 'ETH',
+    name: 'Wordpress',
+    abbr: 'Sites',
     description:
-      'Blockchain technology to create and run decentralized digital applications.',
+      'Sites, Blogs, Landing pages, Lojas Virtuais, ELEMENTOR',
   },
   {
     image: LitecoinImg,
-    name: 'Litecoin',
-    abbr: 'LTC',
+    name: 'Design Gráfico',
+    abbr: 'UI/UX',
     description:
-      'Cryptocurrency that enables instant payments to anyone in the world.',
+      'Design Gráfico, Artes para mídias sociais, Banners, Infográficos, edições de videos',
   },
 ];

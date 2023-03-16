@@ -5,6 +5,13 @@ import Image from '../assets/img/hero-img.png';
 
 // import icons
 import { IoIosArrowDroprightCircle } from 'react-icons/io';
+import {
+  IoLogoYoutube,
+  IoLogoInstagram,
+  IoLogoTwitter,
+  IoLogoLinkedin,
+  IoLogoFacebook,
+} from 'react-icons/io';
 
 const Hero = () => {
   return (
@@ -14,42 +21,45 @@ const Hero = () => {
           {/* hero text */}
           <div className='flex-1'>
             {/* badge text */}
-            <div
-              className='bg-white/10 p-1 mb-6 rounded-full pl-1 pr-3 max-w-[365px]'
-              data-aos='fade-down'
-              data-aos-delay='400'
-            >
-              <div className='flex items-center justify-between text-sm lg:text-base'>
-                <div className='bg-white text-darkblue rounded-full font-medium py-1 px-4'>
-                  75% SAVE
-                </div>
-                <div>For the Black Friday weekend</div>
-              </div>
-            </div>
+            
             {/* title */}
             <h1
               className='text-[32px] lg:text-[64px] font-bold leading-tight mb-6'
               data-aos='fade-down'
               data-aos-delay='500'
             >
-              Fastest & secure platform to invest in crypto.
+              D'JESUS DESIGNER
             </h1>
             <p
               className='max-w-[440px] leading-relaxed mb-8'
               data-aos='fade-down'
               data-aos-delay='600'
             >
-              Buy and sell cryptocurrencies, trusted by 10M wallets with over
-              $30 billion in transactions.
-            </p>
-            <button
-              className='btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base'
-              data-aos='fade-down'
-              data-aos-delay='700'
-            >
-              Try for free
-              <IoIosArrowDroprightCircle className='text-2xl lg:text-3xl' />
-            </button>
+             Web designer especialista em criação de sites planejamento, desenvolvimento e realização de manutenção em sites e aplicações de Internet.
+            </p><div className='py-12'>
+        <div className='container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0'>
+          
+          {/* social icons */}
+          <div className='flex text-2xl gap-x-8  '>
+            <a className='hover:text-blue transition' href='https://www.youtube.com/@djesuspdm'>
+              <IoLogoYoutube />
+            </a>
+            <a className='hover:text-blue transition' href='https://www.instagram.com/jesuspdm/'>
+              <IoLogoInstagram />
+            </a>
+            <a className='hover:text-blue transition' href='https://www.facebook.com/djesus.portaldiasmacedo'>
+              <IoLogoFacebook />
+            </a>
+            <a className='hover:text-blue transition' href='https://twitter.com/DJESUSDESIGNER'>
+              <IoLogoTwitter />
+            </a>
+            <a className='hover:text-blue transition' href='https://www.linkedin.com/in/jesus-pereira-49ab0a103/'>
+              <IoLogoLinkedin />
+            </a>
+          </div>
+        </div>
+      </div>
+            
           </div>
           {/* hero image */}
           <div className='flex-1'>

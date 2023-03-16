@@ -22,12 +22,23 @@ const Why = () => {
             data-aos='fade-left'
             data-aos-offset='400'
           >
-            <h2 className='section-title'>Why you should choose CRAPPO</h2>
+            <h2 className='section-title'>FORMAÇÃO</h2>
             <p className='section-subtitle'>
-              Experience the next generation cryptocurrency platform. No
-              financial borders, extra fees, and fake reviews.
+           <h1><ul>
+              <li>Graduação tecnológica:
+Web Design e Web Master, Universidade Vale do Acaraú.</li>
+<li>Web Design: CEPEP.</li>
+<li>CURSANDO Front-End: IWTRAINING/PIXELS.</li>
+<li>Imersão de Design Gráfico: IWTRAINING/PIXELS</li>
+<li>Imersão de Dayse UI: IWTRAINING/PIXELS</li>
+<li>Imersão de UI/UX Design: DIGITAL COLLEGE</li>
+<li>Imersão de InteligÊncia Emocional: MÉTODO EVO</li>
+</ul>
+</h1> 
+
+
             </p>
-            <button className='btn px-6'>Learn more</button>
+            <button className='btn px-6'>Saiba Mais </button>
           </div>
         </div>
       </div>

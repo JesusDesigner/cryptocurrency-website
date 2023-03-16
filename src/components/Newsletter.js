@@ -14,9 +14,9 @@ const Newsletter = () => {
         >
           {/* text */}
           <div className='flex-1 w-full'>
-            <h3 className='h3 mb-4'>Start mining now</h3>
+            <h3 className='h3 mb-4'>Cadastre seu E-MAIL</h3>
             <p className='max-w-[348px] mb-8'>
-              Join now with CRAPPO to get the latest news and start mining now
+            Orçamentos, dúvidas e sugestões.
             </p>
           </div>
           <NewsletterForm />

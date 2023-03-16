@@ -17,7 +17,8 @@ const Trade = () => {
           data-aos='fade-up'
           data-aos-offset='400'
         >
-          Trade securely and market the high growth cryptocurrencies.
+          SERVIÇOS
+
         </h2>
         {/* items */}
         <div
@@ -58,7 +59,7 @@ const Trade = () => {
                     }  border-2 border-gray-300 rounded-full h-16 flex justify-center items-center`}
                   >
                     {name === itemName && (
-                      <div className='text-lg font-medium'>Start mining</div>
+                      <div className='text-lg font-medium'>Saiba Mais</div>
                     )}
                     <IoIosArrowForward
                       className={`${

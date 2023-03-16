@@ -14,13 +14,12 @@ const FeaturesSection3 = () => {
           data-aos-offset='400'
         >
           <h3 className='h3 mb-6'>
-            Grow your profit and track your investments
+            Design Gráfico <span className='text-blue'>(UI/UX)</span>
           </h3>
           <p className='text-gray mb-8 max-w-[408px]'>
-            Use advanced analytical tools. Clear TradingView charts let you
-            track current and historical profit investments.
+          Design Gráfico, Artes para mídias sociais, Banners, Infográficos, edições de videos.
           </p>
-          <button className='btn px-8'>Learn more</button>
+          <a className='hover:text-Green transition' href=''><button className='btn h-[52px] text-base px-8'>Serviços</button></a>
         </div>
         {/* image */}
         <div

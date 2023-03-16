@@ -17,9 +17,9 @@ const Stats = () => {
             {/* item text */}
             <div>
               <div className='text-2xl font-bold lg:text-[40px] lg:mb-2'>
-                $30B
+             FRONT-END
               </div>
-              <div className='text-gray'>Digital Currency Exchanged</div>
+              <div className='text-gray'>HTML, CSS, JS, REACT</div>
             </div>
           </div>
           {/* item */}
@@ -31,9 +31,9 @@ const Stats = () => {
             {/* item text */}
             <div>
               <div className='text-2xl font-bold lg:text-[40px] lg:mb-2'>
-                $10M+
+                WORDPRESS
               </div>
-              <div className='text-gray'>Trusted Wallets Investor</div>
+              <div className='text-gray'>SITES, ELEMENTOR</div>
             </div>
           </div>
           {/* item */}
@@ -45,9 +45,9 @@ const Stats = () => {
             {/* item text */}
             <div>
               <div className='text-2xl font-bold lg:text-[40px] lg:mb-2'>
-                195
+                DESIGN GRÁFICO
               </div>
-              <div className='text-gray'>Countries Supported</div>
+              <div className='text-gray'>MÍDIAS SOCIAIS</div>
             </div>
           </div>
         </div>

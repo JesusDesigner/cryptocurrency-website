@@ -6,10 +6,10 @@ const NewsletterForm = () => {
       <input
         className='input text-base text-white placeholder:text-white placeholder:text-base'
         type='text'
-        placeholder='Enter your email'
+        placeholder='Seu melhor e-mail'
       />
       <button className='btn bg-white text-darkblue px-8 hover:bg-white/70'>
-        Subscribe
+        Enviar
       </button>
     </form>
   );

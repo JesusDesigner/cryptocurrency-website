@@ -14,20 +14,21 @@ const Calculate = () => {
             data-aos='fade-up'
             data-aos-offset='400'
           >
-            Check how much you can earn
+            CRIE SEU WEBSITE!
           </h2>
           <p
             className='section-subtitle text-lg mb-16 max-w-[622px] mx-auto'
             data-aos='fade-up'
             data-aos-offset='450'
           >
-            Let's check your hash rate to see how much you will earn today.
+           Se a intenção é valorizar a sua empresa, ter um site, com um domínio próprio, aumenta o valor percebido por seus clientes. As empresas que aparecem somente nas redes sociais, ainda passam a ideia de não profissionais, ou em início de atividade. 
           </p>
         </div>
         {/* form */}
         <CalcForm />
       </div>
     </section>
+    
   );
 };
 

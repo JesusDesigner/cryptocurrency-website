@@ -15,7 +15,7 @@ import Trade from './components/Trade';
 import Features from './components/Features';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
-import Portifolio from './components/Portifolio';
+
 const App = () => {
   // mobile nav state
   const [navMobile, setNavMobile] = useState(false);
@@ -40,12 +40,7 @@ const App = () => {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <Stats />
-      <Why />
-      <Calculate />
-      <Trade />
-      <Portifolio />
-      <Features />
-      <Newsletter />
+      
       <Footer />
     </div>
   );

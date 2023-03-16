@@ -22,12 +22,13 @@ const FeaturesSection2 = () => {
             data-aos='fade-left'
             data-aos-offset='400'
           >
-            <h3 className='h3 mb-6'>Detailed Statistics</h3>
+            <h3 className='h3 mb-6'> Startup</h3>
             <p className='text-gray mb-8'>
-              View all mining related information in realtime, at any point at
-              any location and decide which polls you want to mine in.
+            CONTABILIDADE ON DEMAND. Soluções sob demanda!
+Para pessoas físicas, empreendedores e profissionais contábeis.
+Escritório de Contabilidade Virtual. Faça Um Orçamento. Temos As Melhores Soluções Para Contabilidade da Sua Empresa.
             </p>
-            <button className='btn px-8 mb-6 lg:mb-0'>Learn more</button>
+            <a className='hover:text-Green transition' href='http://ondemand.42web.io/'><button className='btn h-[52px] text-base px-8'>Visitar o site</button></a>
           </div>
         </div>
       </div>

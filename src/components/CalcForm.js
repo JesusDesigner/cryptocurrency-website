@@ -1,5 +1,9 @@
 import React from 'react';
-
+import Logo from '../assets/img/logo.png';
+import cliente01Img from '../assets/img/cliente01.png';
+import cliente02dImg from '../assets/img/cliente02.png';
+import cliente03Img from '../assets/img/cliente03.png';
+import cliente04Img from '../assets/img/cliente04.png';
 const CalcForm = () => {
   return (
     <div
@@ -7,36 +11,28 @@ const CalcForm = () => {
       data-aos='fade-up'
       data-aos-offset='500'
     >
-      {/* form */}
-      <form className='flex flex-col lg:flex-row lg:justify-between lg:items-center space-y-12 lg:space-y-0'>
-        <input
-          className='input placeholder:text-darkblue'
-          type='text'
-          placeholder='Enter your hash rate'
-        />
-        <select className='select'>
-          <option value=''>TH/s</option>
-          <option value=''>H/s</option>
-          <option value=''>KH/s</option>
-          <option value=''>MH/s</option>
-          <option value=''>GH/s</option>
-        </select>
-        {/* btn */}
-        <button className='btn text-white px-8 flex self-start'>
-          Calculate
-        </button>
-      </form>
+     
       {/* text */}
       <div className='mt-24'>
-        <div className='text-blue font-medium mb-4'>
-          ESTIMATED 24 HOUR REVENUE:
+        <div className='text-blue font-bold mb-4 items-center'>
+         <h2>Clientes: </h2> 
         </div>
         <div className='text-[32px] font-bold mb-3'>
-          0.055 130 59 ETH <span className='text-blue'>($1275)</span>
+          Meu Contato: <span className='text-blue'>(85 98845-2885)</span>
         </div>
         <div className='text-gray-500 tracking-[1%]'>
-          Revenue will change based on mining difficulty and Ethereum price.
+         <h1> Gratidão! Sou muito grato por poder contar com você nesta caminhada. Obrigado por nos ter como referência de qualidade e atendimento. Estamos sempre melhorando para atendê-lo.</h1>
         </div>
+        <div className='flex flex-col flex-1'>
+            <div className='lg:ml-[80px]'>
+                           <div className='flex justify-center items-center gap-6'>
+                <img src={cliente01Img} alt='' />
+                <img src={cliente02dImg} alt='' />
+                <img src={cliente03Img} alt='' />
+                <img src={cliente04Img} alt='' />
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   );
