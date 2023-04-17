@@ -31,9 +31,9 @@ const Stats = () => {
             {/* item text */}
             <div>
               <div className='text-2xl font-bold lg:text-[40px] lg:mb-2'>
-                WORDPRESS
+               CMS 
               </div>
-              <div className='text-gray'>SITES, ELEMENTOR</div>
+              <div className='text-gray'>WORDPRESS, JOOMLA</div>
             </div>
           </div>
           {/* item */}

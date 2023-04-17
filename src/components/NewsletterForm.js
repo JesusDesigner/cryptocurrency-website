@@ -1,18 +1,20 @@
 import React from 'react';
 
 const NewsletterForm = () => {
-  return (
-    <form className='flex-1 flex flex-col items-start w-full gap-y-6 lg:flex-row lg:gap-x-10'>
-      <input
-        className='input text-base text-white placeholder:text-white placeholder:text-base'
-        type='text'
-        placeholder='Seu melhor e-mail'
-      />
-      <button className='btn bg-white text-darkblue px-8 hover:bg-white/70'>
-        Enviar
-      </button>
-    </form>
-  );
-};
+
+    return (
+      <div className='flex items-center font-medium'>
+        {/* link btn */}
+        
+        <a className='hover:text-black transition' href="mailto:jesusdesigner@outlook.com.br?body=My custom mail body">E-mail</a>
+        {/* separator */}
+        <span className='mx-6 text-white/20 font-thin'>|</span>
+        {/* register btn */}
+        <a className='hover:text-Green transition' href='https://api.whatsapp.com/send?1=pt_BR&phone=5585988452885'><button className='btn h-[52px] text-base px-8'>WhattsApp</button></a>
+      </div>
+    );
+  };
+    
+
 
 export default NewsletterForm;

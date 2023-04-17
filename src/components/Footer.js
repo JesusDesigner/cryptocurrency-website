@@ -57,26 +57,26 @@ const Footer = () => {
             </div>
             {/* link group */}
             <div className='text-center w-full lg:text-left'>
-              <div className='text-xl font-medium mb-6'>Links</div>
+              <div className='text-xl font-medium mb-6'>Portifólios</div>
               <ul className='space-y-4 text-gray'>
                 <li>
-                  <a className='hover:text-blue transition' href='#'>
-                    Download Whitepapper
+                  <a className='hover:text-blue transition' href='https://jesusdesigner.netlify.app/'>
+                  Portifolio 2 
+                  </a>
+                </li>
+                <li>
+                  <a className='hover:text-blue transition' href='https://techtreinamento.wixsite.com/jesus'>
+                    Feito com WIX
                   </a>
                 </li>
                 <li>
                   <a className='hover:text-blue transition' href='#'>
-                    Smart Token
+                    Feito com Canva
                   </a>
                 </li>
                 <li>
-                  <a className='hover:text-blue transition' href='#'>
-                    Blockchain Explore
-                  </a>
-                </li>
-                <li>
-                  <a className='hover:text-blue transition' href='#'>
-                    Crypto API
+                  <a className='hover:text-blue transition' href='http://jesusdesign.42web.io/'>
+                    Modelo de site
                   </a>
                 </li>
                

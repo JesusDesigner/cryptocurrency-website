@@ -32,7 +32,7 @@ Web Design e Web Master, Universidade Vale do Acaraú.</li>
 <li>Imersão de Design Gráfico: IWTRAINING/PIXELS</li>
 <li>Imersão de Dayse UI: IWTRAINING/PIXELS</li>
 <li>Imersão de UI/UX Design: DIGITAL COLLEGE</li>
-<li>Imersão de InteligÊncia Emocional: MÉTODO EVO</li>
+<li>Imersão de Inteligência Emocional: MÉTODO EVO</li>
 </ul>
 </h1> 
 

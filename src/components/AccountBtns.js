@@ -4,9 +4,8 @@ const AccountBtns = () => {
   return (
     <div className='flex items-center font-medium'>
       {/* link btn */}
-      <a className='hover:text-blue transition' href='../curriculo.pdf'>
-        Login
-      </a>
+      
+      <a className='hover:text-blue transition' href="mailto:jesusdesigner@outlook.com.br?body=My custom mail body">E-mail</a>
       {/* separator */}
       <span className='mx-6 text-white/20 font-thin'>|</span>
       {/* register btn */}

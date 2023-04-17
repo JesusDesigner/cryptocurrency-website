@@ -16,7 +16,7 @@ const FeaturesSection1 = () => {
           <h3 className='h3 mb-6'>Portal de Notícias</h3>
           <p className='text-gray mb-8'>
            Portal de Notícias do Bairro Dias Macedo, História, Notícias, reportagns.
-           Resgatar a história de um povo, contada pelos próprios personagens ou por seus familiares, amigos.
+           Resgatar a história de um povo, contada pelos próprios personagens ou por seus familiares e amigos.
           </p>
           <a className='hover:text-Green transition' href='https://diasmacedo.com.br/'><button className='btn h-[52px] text-base px-8'>Visitar o site</button></a>
         </div>

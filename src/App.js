@@ -15,7 +15,7 @@ import Trade from './components/Trade';
 import Features from './components/Features';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
-import Portifolio from './components/Portifolio';
+import Acordeon from './components/Acordeon';
 const App = () => {
   // mobile nav state
   const [navMobile, setNavMobile] = useState(false);
@@ -43,7 +43,7 @@ const App = () => {
       <Why />
       <Calculate />
       <Trade />
-      <Portifolio />
+     <Acordeon/>
       <Features />
       <Newsletter />
       <Footer />

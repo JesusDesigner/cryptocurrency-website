@@ -32,10 +32,10 @@ export const currency = [
   },
   {
     image: EthereumImg,
-    name: 'Wordpress',
+    name: 'WORDPRESS, JOOMLA',
     abbr: 'Sites',
     description:
-      'Sites, Blogs, Landing pages, Lojas Virtuais, ELEMENTOR',
+      ' Sites, Blogs, Landing pages, Lojas Virtuais, ELEMENTOR',
   },
   {
     image: LitecoinImg,

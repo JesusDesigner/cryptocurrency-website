@@ -8,15 +8,15 @@ const Newsletter = () => {
     <section className='py-[40px] lg:py-[88px] bg-newsletter bg-cover'>
       <div className='container mx-auto'>
         <div
-          className='flex flex-col lg:flex-row items-center justify-between bg-blue p-12 rounded-2xl lg:bg-newsletterBox lg:bg-no-repeat lg:h-[216px]'
+          className='flex flex-col lg:flex-row items-center justify-between bg-cccccc p-12 rounded-2xl lg:bg-newsletterBox lg:bg-no-repeat lg:h-[216px]'
           data-aos='fade-up'
           data-aos-offset='400'
         >
           {/* text */}
           <div className='flex-1 w-full'>
-            <h3 className='h3 mb-4'>Cadastre seu E-MAIL</h3>
+            <h1>Fale Comigo!</h1>
             <p className='max-w-[348px] mb-8'>
-            Orçamentos, dúvidas e sugestões.
+           Se você deseja aumentar o número de clientes ou precisa potencializar a presença da sua empresa na internet, solicite um orçamento sem compromisso.
             </p>
           </div>
           <NewsletterForm />
